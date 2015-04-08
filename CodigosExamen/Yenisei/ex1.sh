@@ -54,8 +54,8 @@ while true
 		5) echo "Ingrese la ruta del directorio para buscar archivos por fecha de creacion"
 			read ruta
 			echo "Ingrese el numero de dias para buscar archivos hasta esa fecha"
-			read ndia
-s			echo -e "${color1}$(sudo find $ruta -atime $ndias)${NC}"
+			read ndias
+			echo -e "${color1}$(sudo find $ruta -atime $ndias)${NC}"
 			echo -e "${color2}Listo!!${NC}"
 			read enter
 			;;
